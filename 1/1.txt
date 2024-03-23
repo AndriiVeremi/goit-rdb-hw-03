@@ -1,0 +1,12 @@
+1. Напишіть SQL команду, за допомогою якої можна:
+вибрати всі стовпчики (За допомогою wildcard “*”) з таблиці “products”;
+вибрати тільки стовпчики name, phone з таблиці shippers,
+та перевірте правильність її виконання в MySQL Workbench.
+
+
+SELECT * FROM products;
+
+
+SELECT shippers.name,
+    shippers.phone
+FROM shippers;
